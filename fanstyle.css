@@ -1,0 +1,67 @@
+body{
+    
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-color:black;
+   
+}
+.main{
+    align-items: center;
+    display: block;
+}
+
+img{
+    margin-top:0;
+    border-radius: 50%;
+    border: 20px  solid aquamarine;
+    padding: 50px;
+    animation: fananim linear infinite;
+    margin-top:20%;
+    align-content: center;
+    margin: 0px ;
+
+}
+ button{
+    border:none;
+    font-size:25px;
+    cursor:pointer;
+    height: 100px;
+    width:100px;
+    margin: 0  20px;
+    font-weight:550 ;
+    background-color: silver;
+    transition: 0.1;
+    border-radius: 50%;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:whitesmoke;
+  
+    
+
+}
+button:hover{
+    background-color: gray;
+}
+
+but
+/*active pseudo-class is used to style the button when it is being actively pressed. */
+.button:active{
+    transform: scale(0.95);/*property scales down the button slightly, creating a visual feedback effect.*/
+    box-shadow: rgb(63, 67, 67);
+}
+.main button:nth-last-child(5)
+{
+    background-color:green;
+}
+.main button:nth-last-child(4)
+{
+    background-color:red;
+}
+@keyframes fananim{
+    100%
+    {
+    transform: rotate(360deg);
+    }
+}
